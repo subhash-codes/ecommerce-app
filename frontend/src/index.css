@@ -1,1 +1,29 @@
+<<<<<<< HEAD
 @import "tailwindcss";
+=======
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap'); 
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: outfit; 
+}
+a.active hr{
+    display: block;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media(max-width:640px){
+    a.active{
+        background-color: black;
+        color: white ;
+    }
+}
+>>>>>>> 22643e8afa940b60f29613b014417e2ac6e2c3c7
